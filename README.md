@@ -4,10 +4,10 @@ Este projeto são os arquivos mudados da instalação de um servidor Apache2 com
 servidor e não se deve torna-las públicas. 
 
 ## Integrantes
-Bruno Ferro
-Leonardo Tamanhão
-Mauro Toshiuki
-Yasmin Araujo
+Bruno Ferro,
+Leonardo Tamanhão,
+Mauro Toshiuki,
+Yasmin Araujo,
 
 ## Objetivo
 
