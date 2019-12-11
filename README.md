@@ -20,3 +20,38 @@ O OpenSSL é um kit de ferramentas robusto, de nível comercial e com todos os r
 ```bash
 apt-get install apache2 openssl
 ```
+
+# Obfuscação 
+
+Esta parte do projeto é a maneira de obfuscar código em python usando o pyarmor
+
+## Instalação
+
+```python
+pip install pyarmor
+```
+## Obfuscando
+
+Para obfuscar um arquivo em python basta usar o comando
+
+```bash
+pyarmor obfuscate arquivo.py
+```
+O arquivo obfuscado irá para pasta dist e para rodar o código basta usar 
+
+```bash
+python arquivo.py
+```
+
+Caso queira obfuscar todos os arquivos de uma pasta basta usar a flag --recursive em um script da pasta
+
+
+```bash
+pyarmor obfuscate --recursive arquivo.py
+```
+
+Para obfuscar apenas um arquivo de um pacote se usa a flag --exact
+
+```bash
+pyarmor obfuscate --exact arquivo.py
+```
